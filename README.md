@@ -15,7 +15,6 @@ Use the [provided mockups](Stock_Watcher_Mockup.pdf) to guide your design.
 ## Criteria
 * You are not allowed to use any CSS frameworks.
 * You are welcome and encouraged to use any JavaScript libraries or frameworks eg (jQuery, Backone, Underscore, etc).
-* The design must be implemented using HTML, CSS, and Javascript only. No images! (Custom fonts are OK too)
 * The design should be responsive and change accordingly as the screen changes size.
 
 ## What we look for
