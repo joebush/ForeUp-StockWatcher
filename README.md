@@ -2,15 +2,10 @@
 
 Your task is to build a simple web application for a user to add basic stock tickers to a dashboard. To add a stock, the user enters the symbol of their desired stock eg. "GOOG" or "YHOO" into a text field. When they click "Add" the basic stock data is added to the dashboard.
 
-Use the following API to retrieve your stock data:
+Use the following Yahoo API to retrieve the stock data:
+http://developer.yahoo.com/yql/console/?q=SELECT%20*%20FROM%20yahoo.finance.quote%20WHERE%20symbol%20%3D%20'GOOG'&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys
 
-http://marketdata.websol.barchart.com/getQuote.json?key=44b2ab0b37a6436f26edebcc2da1794e&symbols=[symbol]
-
-Replace symbol with the desired stock to retrieve its data:
-
-http://marketdata.websol.barchart.com/getQuote.json?key=44b2ab0b37a6436f26edebcc2da1794e&symbols=GOOG
-
-Use the [provided mockups](Stock_Watcher_Mockup.pdf) to guide your design.
+Use the [provided mockups](Stock_Watcher_Mockup.pdf) and [finished design](Design2.png) to guide your development.
 
 ## Criteria
 * You are not allowed to use any CSS frameworks.
@@ -20,10 +15,11 @@ Use the [provided mockups](Stock_Watcher_Mockup.pdf) to guide your design.
 ## What we look for
 * Well structured semantic HTML 5 code
 * Well named, and organized CSS 3
-* Good overall design (proper spacing, good use of contrast and color, general usability)
+* Match the provided design as close as possible
 * Organized and easy-to-read Javascript
 
 ## Tips
 * Make sure edge cases are handled well (eg. The user attempts to add stock symbol that does not exist)
+* The font used in the design is a free font from Google called 'Droid Serif'.
 
 When you are finished, upload your project to a public (free) GitHub repository on GitHub.com and email us the link to your work. Thanks!
